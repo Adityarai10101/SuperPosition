@@ -1,0 +1,7 @@
+platform :ios, '16.1.1'
+
+target 'ExampleOfiOSLiDAR' do
+  use_frameworks!
+  pod 'Starscream', '~> 4.0.0'
+  pod 'Accelerate'
+end
